@@ -10,6 +10,7 @@ TRAIN_TEST_SPLIT_RATIO = 0.8
 TRAIN_VALID_SPLIT_RATIO = 0.8
 
 MODEL_XGB_PMML = "output/model_xgb.pmml"
+MODEL_XGB = "output/model_xgb.model"
 
 # TRAINING DATA
 # TODO use data version here

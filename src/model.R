@@ -41,13 +41,15 @@ paramxgBoost <- list(
 watchlist = list(train = datasets$trainData, eval = datasets$evalData)
 
 #Train model
-  model_xgb = xgb.train(nrounds = NROUNDS, params = paramxgBoost,
+model_xgb = xgb.train(nrounds = NROUNDS, params = paramxgBoost,
                         data = datasets$trainData,
                         early_stop_round = EARLY_STOP,
                         watchlist = watchlist,
                         print_every_n = PRINT_EVERY_N,
                         verbose = VERBOSE
   )
+
+xgb.save(model_xgb, MODEL_XGB)
 
 predictions = predict(model_xgb, datasets$testData)
 
@@ -74,3 +76,4 @@ r2pmml(
 #evaluate the performance of the model
 evaluateModel(test$aggressiveness_score, predictions)
 
+# [1] 20.03263

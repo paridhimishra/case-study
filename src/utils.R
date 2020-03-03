@@ -89,7 +89,7 @@ convertyDataToXgBoost <- function (x, target, features = NULL)
   })
   res[["targetTest"]] = x$testData[, target, with = F]
   res[["features"]] = features
-  gc()
+  # gc()
   return(res)
 }
 
