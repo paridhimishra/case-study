@@ -163,7 +163,9 @@ getTrainingData <- function(spark_conn, data_version) {
 # Return:
 #  The mean average error of model
 evaluateModel <- function(actuals, preds) {
-  return (rmse(actuals, preds))
+  return (cor(actuals, preds))
+  # return (rmse(actuals, preds))
+  # return (mae(actuals, preds))
   
 }
 
