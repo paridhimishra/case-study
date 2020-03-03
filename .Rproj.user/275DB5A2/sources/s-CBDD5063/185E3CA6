@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583260689360.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "185E3CA6",
+    "lastKnownWriteTime" : 1583260711,
+    "last_content_update" : 1583260711139,
+    "path" : "~/wesfarmers/case-study/src/utils.R",
+    "project_path" : "src/utils.R",
+    "properties" : {
+        "cursorPosition" : "44,0",
+        "scrollLine" : "29"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

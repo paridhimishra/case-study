@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583260295498.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F532F824",
+    "lastKnownWriteTime" : 1583260387,
+    "last_content_update" : 1583260387549,
+    "path" : "~/wesfarmers/case-study/src/constants.R",
+    "project_path" : "src/constants.R",
+    "properties" : {
+        "cursorPosition" : "18,0",
+        "scrollLine" : "2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583259119230.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "559CDD63",
+    "lastKnownWriteTime" : 1583272047,
+    "last_content_update" : 1583272047,
+    "path" : "~/wesfarmers/case-study/src/model.R",
+    "project_path" : "src/model.R",
+    "properties" : {
+        "cursorPosition" : "73,1",
+        "scrollLine" : "61"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

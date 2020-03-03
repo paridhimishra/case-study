@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583260296590.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "86024067",
+    "lastKnownWriteTime" : 1583236494,
+    "last_content_update" : 1583236494,
+    "path" : "~/wesfarmers/case-study/src/installers.R",
+    "project_path" : "src/installers.R",
+    "properties" : {
+        "cursorPosition" : "25,0",
+        "scrollLine" : "7"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
