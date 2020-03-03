@@ -2,6 +2,18 @@
 source("src/constants.R")
 source("src/utils.R")
 
+# Setup scoring function using plumber
+#
+# Arguments:
+#  input list of 10 variables 
+# 
+# Return:
+# predicted aggresiveness score 
+serve <- function(args) {
+  app <- plumb(paste(prefix, predict(args), sep='/'))
+  app$run(host='0.0.0.0', port=8080)}
+
+
 # Makes predictions for xgb model
 #
 # Arguments:
@@ -9,7 +21,7 @@ source("src/utils.R")
 # 
 # Return:
 # predicted aggresiveness score 
-predict <- function (input) {
+predict <- function(input) {
 
 # load the trained model
 model_xgb = xgb.load(MODEL_XGB)

@@ -9,6 +9,7 @@ install.packages("mleap")
 install.packages("sparklyr")
 install.packages("r2pmml")
 install.packages("Metrics")
+install.packages("plumber")
 install.packages("data.table", type="source", dependencies=TRUE)
 
 library(devtools)
