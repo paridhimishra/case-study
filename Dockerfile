@@ -10,7 +10,7 @@ RUN apt-get -y update && apt-get install -y --no-install-recommends \
 
 RUN R -e "install.packages(c('mda', 'plumber'), repos='https://cloud.r-project.org')"
 
-COPY src/utils.R /opt/ml/utils.RCOPY src/installers.R /opt/ml/installers.RCOPY src/predict.R /opt/ml/predict.R
+COPY src/utils.R /opt/ml/utils.R COPY src/installers.R /opt/ml/installers.R COPY src/predict.R /opt/ml/predict.R
 
 ENTRYPOINT ["/usr/bin/Rscript", "/opt/ml/predict.R", "--no-save"]
 
